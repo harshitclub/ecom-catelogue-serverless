@@ -1,0 +1,38 @@
+{
+  "name": "ecom-catalogue-serverless",
+  "version": "1.0.0",
+  "description": "Ecommerce Products API (Serverless)",
+  "keywords": [
+    "Ecommerce",
+    "Nodejs",
+    "API",
+    "Serverless"
+  ],
+  "homepage": "https://github.com/harshitclub/ecom-catelogue-serverless#readme",
+  "bugs": {
+    "url": "https://github.com/harshitclub/ecom-catelogue-serverless/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitclub/ecom-catelogue-serverless.git"
+  },
+  "license": "ISC",
+  "author": "Harshit Kumar",
+  "type": "commonjs",
+  "main": "api/index.ts",
+  "scripts": {
+    "dev": "ts-node api/index.ts",
+    "build": "echo 'Vercel handles build for api/ directory'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
