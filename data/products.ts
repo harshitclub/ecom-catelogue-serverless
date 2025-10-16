@@ -9,7 +9,7 @@ export const products: Product[] = [
     title: "MacBook Pro M3 (16-inch)",
     description:
       "Apple’s latest 16-inch MacBook Pro with M3 Pro chip, 16GB unified memory, and 1TB SSD storage for professionals.",
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    image: "/public/product.png",
     category: "Laptops & Computing",
     brand: "Apple",
     price: 2499,
@@ -25,7 +25,7 @@ export const products: Product[] = [
     title: "Dell XPS 15 Ultra Performance Laptop",
     description:
       "High-performance Dell XPS 15 with Intel Core i9 processor, RTX 4070 GPU, and OLED 4K display.",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    image: "/public/product.png",
     category: "Laptops & Computing",
     brand: "Dell",
     price: 2199,
@@ -41,7 +41,7 @@ export const products: Product[] = [
     title: "ASUS ROG Zephyrus G14 Gaming Laptop",
     description:
       "Compact gaming beast with AMD Ryzen 9 processor and RTX 4060 GPU, 165Hz QHD display.",
-    image: "https://images.unsplash.com/photo-1587202372775-98927f9d2f88",
+    image: "/public/product.png",
     category: "Laptops & Computing",
     brand: "ASUS",
     price: 1899,
@@ -56,7 +56,7 @@ export const products: Product[] = [
     title: "HP Spectre x360 2-in-1 Laptop",
     description:
       "Sleek 2-in-1 laptop with Intel Evo certification, touchscreen display, and long battery life.",
-    image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    image: "/public/product.png",
     category: "Laptops & Computing",
     brand: "HP",
     price: 1599,
@@ -72,7 +72,7 @@ export const products: Product[] = [
     title: "Lenovo ThinkPad X1 Carbon Gen 11",
     description:
       "Durable business laptop featuring Intel i7 processor, 16GB RAM, 512GB SSD, and fingerprint reader.",
-    image: "https://images.unsplash.com/photo-1610465299991-6e6f9e3dbb5d",
+    image: "/public/product.png",
     category: "Laptops & Computing",
     brand: "Lenovo",
     price: 1799,
@@ -91,7 +91,7 @@ export const products: Product[] = [
     title: "Apple iMac 24-inch (M3, 2025)",
     description:
       "The all-in-one iMac with M3 chip, 4.5K Retina display, and stunning ultra-slim design.",
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    image: "/public/product.png",
     category: "Desktops & Monitors",
     brand: "Apple",
     price: 1899,
@@ -106,7 +106,7 @@ export const products: Product[] = [
     title: "Alienware Aurora R16 Gaming Desktop",
     description:
       "Next-gen gaming desktop with Intel i9, RTX 5090, liquid cooling, and RGB lighting.",
-    image: "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9",
+    image: "/public/product.png",
     category: "Desktops & Monitors",
     brand: "Alienware",
     price: 3499,
@@ -121,7 +121,7 @@ export const products: Product[] = [
     title: "Samsung Odyssey G9 Curved Gaming Monitor",
     description:
       "49-inch curved ultra-wide QHD monitor with 240Hz refresh rate and Quantum Mini LED.",
-    image: "https://images.unsplash.com/photo-1612810806563-09b5e6f9a8a0",
+    image: "/public/product.png",
     category: "Desktops & Monitors",
     brand: "Samsung",
     price: 1499,
@@ -136,7 +136,7 @@ export const products: Product[] = [
     title: "LG UltraFine 5K Display",
     description:
       "27-inch 5K monitor ideal for designers with ultra-accurate color reproduction.",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b09",
+    image: "/public/product.png",
     category: "Desktops & Monitors",
     brand: "LG",
     price: 1299,
@@ -151,7 +151,7 @@ export const products: Product[] = [
     title: "ASUS ProArt Creator Monitor",
     description:
       "Professional-grade display with 100% Adobe RGB and HDR400 certification for creators.",
-    image: "https://images.unsplash.com/photo-1573497161038-56f24f34b1d9",
+    image: "/public/product.png",
     category: "Desktops & Monitors",
     brand: "ASUS",
     price: 999,
@@ -170,7 +170,7 @@ export const products: Product[] = [
     title: "NVIDIA GeForce RTX 5090 Graphics Card",
     description:
       "Ultimate 4K gaming GPU with AI-powered ray tracing and DLSS 4 support.",
-    image: "https://images.unsplash.com/photo-1606813902597-1b8b2b28969f",
+    image: "/public/product.png",
     category: "PC Components",
     brand: "NVIDIA",
     price: 1999,
@@ -185,7 +185,7 @@ export const products: Product[] = [
     title: "AMD Ryzen 9 9950X Processor",
     description:
       "16-core powerhouse for gaming and content creation with Zen 5 architecture.",
-    image: "https://images.unsplash.com/photo-1615634260167-7fca24e9c7cc",
+    image: "/public/product.png",
     category: "PC Components",
     brand: "AMD",
     price: 799,
@@ -200,7 +200,7 @@ export const products: Product[] = [
     title: "Corsair Vengeance DDR5 32GB RAM Kit",
     description:
       "High-performance DDR5 RAM for gaming and productivity PCs, 6000MHz speed.",
-    image: "https://images.unsplash.com/photo-1606813902597-1b8b2b28969f",
+    image: "/public/product.png",
     category: "PC Components",
     brand: "Corsair",
     price: 199,
@@ -215,7 +215,7 @@ export const products: Product[] = [
     title: "Samsung 990 PRO NVMe SSD (2TB)",
     description:
       "Blazing-fast 2TB NVMe SSD with 7450MB/s read speed for performance systems.",
-    image: "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+    image: "/public/product.png",
     category: "PC Components",
     brand: "Samsung",
     price: 249,
@@ -230,7 +230,7 @@ export const products: Product[] = [
     title: "Cooler Master V850 Gold Power Supply",
     description:
       "850W modular PSU with 80 Plus Gold certification and low noise operation.",
-    image: "https://images.unsplash.com/photo-1606813902597-1b8b2b28969f",
+    image: "/public/product.png",
     category: "PC Components",
     brand: "Cooler Master",
     price: 159,
@@ -249,7 +249,7 @@ export const products: Product[] = [
     title: "Logitech MX Master 4 Wireless Mouse",
     description:
       "Ergonomic wireless mouse with MagSpeed scroll and USB-C quick charge.",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b09",
+    image: "/public/product.png",
     category: "Peripherals & Accessories",
     brand: "Logitech",
     price: 119,
@@ -264,7 +264,7 @@ export const products: Product[] = [
     title: "Keychron K8 Pro Mechanical Keyboard",
     description:
       "Wireless mechanical keyboard with hot-swappable switches and RGB backlight.",
-    image: "https://images.unsplash.com/photo-1587202372775-98927f9d2f88",
+    image: "/public/product.png",
     category: "Peripherals & Accessories",
     brand: "Keychron",
     price: 129,
@@ -279,7 +279,7 @@ export const products: Product[] = [
     title: "Razer BlackShark V3 Gaming Headset",
     description:
       "Premium wired gaming headset with 50mm drivers and advanced mic clarity.",
-    image: "https://images.unsplash.com/photo-1580894894513-c82dcb29cf0e",
+    image: "/public/product.png",
     category: "Peripherals & Accessories",
     brand: "Razer",
     price: 179,
@@ -294,7 +294,7 @@ export const products: Product[] = [
     title: "Elgato Stream Deck XL",
     description:
       "Customizable control panel with 32 LCD keys for streaming and productivity.",
-    image: "https://images.unsplash.com/photo-1593642532400-2682810df593",
+    image: "/public/product.png",
     category: "Peripherals & Accessories",
     brand: "Elgato",
     price: 249,
@@ -309,7 +309,7 @@ export const products: Product[] = [
     title: "HyperX QuadCast S Microphone",
     description:
       "RGB USB condenser microphone with anti-vibration shock mount and tap-to-mute.",
-    image: "https://images.unsplash.com/photo-1606813902597-1b8b2b28969f",
+    image: "/public/product.png",
     category: "Peripherals & Accessories",
     brand: "HyperX",
     price: 159,
@@ -328,7 +328,7 @@ export const products: Product[] = [
     title: "Apple iPhone 15 Pro Max",
     description:
       "Flagship smartphone with A17 Pro chip, titanium body, and ProMotion display.",
-    image: "https://images.unsplash.com/photo-1603898037225-22e2b4a7c1c2",
+    image: "/public/product.png",
     category: "Smartphones & Tablets",
     brand: "Apple",
     price: 1299,
@@ -343,7 +343,7 @@ export const products: Product[] = [
     title: "Samsung Galaxy S25 Ultra",
     description:
       "Top-tier Android flagship with Snapdragon 8 Gen 3, 200MP camera, and S Pen support.",
-    image: "https://images.unsplash.com/photo-1512499617640-c2f999018b72",
+    image: "/public/product.png",
     category: "Smartphones & Tablets",
     brand: "Samsung",
     price: 1199,
@@ -358,7 +358,7 @@ export const products: Product[] = [
     title: "Google Pixel 9 Pro",
     description:
       "Flagship Google phone with Tensor G4 chip, AI photography, and stock Android experience.",
-    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    image: "/public/product.png",
     category: "Smartphones & Tablets",
     brand: "Google",
     price: 999,
@@ -373,7 +373,7 @@ export const products: Product[] = [
     title: "iPad Pro 13-inch (M4)",
     description:
       "Apple’s most powerful tablet yet, featuring M4 chip and OLED Ultra Retina XDR display.",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b09",
+    image: "/public/product.png",
     category: "Smartphones & Tablets",
     brand: "Apple",
     price: 1299,
@@ -388,7 +388,7 @@ export const products: Product[] = [
     title: "OnePlus Pad 2",
     description:
       "High-performance Android tablet with Snapdragon 8 Gen 2 chip and 120Hz display.",
-    image: "https://images.unsplash.com/photo-1616111202496-96a1b0a31c47",
+    image: "/public/product.png",
     category: "Smartphones & Tablets",
     brand: "OnePlus",
     price: 699,
@@ -407,7 +407,7 @@ export const products: Product[] = [
     title: "Sony WH-1000XM6 Noise Cancelling Headphones",
     description:
       "Industry-leading ANC headphones with up to 40 hours of battery life and LDAC support.",
-    image: "https://images.unsplash.com/photo-1519677100203-a0e668c92439",
+    image: "/public/product.png",
     category: "Audio & Wearables",
     brand: "Sony",
     price: 449,
@@ -422,7 +422,7 @@ export const products: Product[] = [
     title: "Apple AirPods Pro (3rd Gen)",
     description:
       "Wireless earbuds with adaptive transparency, personalized spatial audio, and MagSafe case.",
-    image: "https://images.unsplash.com/photo-1580716898657-6c3a0b8a7165",
+    image: "/public/product.png",
     category: "Audio & Wearables",
     brand: "Apple",
     price: 299,
@@ -437,7 +437,7 @@ export const products: Product[] = [
     title: "Samsung Galaxy Watch 7 Pro",
     description:
       "Premium smartwatch with titanium frame, AMOLED display, and multi-day battery life.",
-    image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a",
+    image: "/public/product.png",
     category: "Audio & Wearables",
     brand: "Samsung",
     price: 499,
@@ -452,7 +452,7 @@ export const products: Product[] = [
     title: "Fitbit Charge 6 Fitness Tracker",
     description:
       "Lightweight fitness tracker with heart rate monitoring, GPS, and sleep tracking.",
-    image: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+    image: "/public/product.png",
     category: "Audio & Wearables",
     brand: "Fitbit",
     price: 199,
@@ -467,7 +467,7 @@ export const products: Product[] = [
     title: "Bose SoundLink Revolve+ Bluetooth Speaker",
     description:
       "360-degree Bluetooth speaker with deep bass and 17-hour battery life.",
-    image: "https://images.unsplash.com/photo-1580894908361-967195033d5e",
+    image: "/public/product.png",
     category: "Audio & Wearables",
     brand: "Bose",
     price: 329,

@@ -2,6 +2,7 @@ import express, { Request, Response, NextFunction } from "express";
 import compression from "compression";
 import cors from "cors";
 import helmet from "helmet";
+import path from "path";
 import { sendProduct, sendProducts } from "../controllers/product.controller";
 
 const app = express();
@@ -14,6 +15,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(compression()); // compress responses
 app.use(cors()); // enable CORS for frontend calls
 app.use(helmet()); // security headers
+
+// ---------------------------
+// Serve static files
+// ---------------------------
+app.use("/public", express.static(path.join(__dirname, "../public")));
 
 // ---------------------------
 // Routes
